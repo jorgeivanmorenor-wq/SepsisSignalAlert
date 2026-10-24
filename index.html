@@ -7,6 +7,17 @@
 <meta name="description" content="Prototipo académico para estructurar la identificación temprana de señales de alarma relacionadas con posible sepsis en adultos.">
 <title>SepsiSignal | Evaluación temprana</title>
 <style>
+  .brand {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.logo {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+}
 :root{
   --navy:#173247;--navy-2:#24475d;--teal:#177f7a;--teal-2:#e6f3f2;--teal-3:#cbe7e4;
   --ink:#253746;--muted:#657887;--subtle:#8595a1;--paper:#f3f6f8;--white:#fff;--line:#dce5e9;
@@ -208,6 +219,11 @@ td{font-size:11px}
 </style>
 </head>
 <body>
+  <header class="brand">
+  <img src="./logo.png"
+       alt="Logo de SepsisSignalAlert"
+       class="logo">
+</header>
 <!-- LOGIN: demostración local; no representa autenticación institucional real -->
 <section id="loginScreen" class="login-screen" aria-label="Inicio de sesión">
   <div class="login-brand">
